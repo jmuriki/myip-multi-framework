@@ -28,7 +28,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = env('DJ_SECRET_KEY', 'django-insecure-48jle_vfxv30&x6x&ff!0)u5ckbuh70o_nqx$kn463(57gtycb')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = env.bool('DJ_DEBUG', True)
+DEBUG = env.bool('DJ_DEBUG', False)
 
 ALLOWED_HOSTS = env.list('DJ_ALLOWED_HOSTS', ['127.0.0.1', 'localhost'])
 

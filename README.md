@@ -8,12 +8,12 @@ MyIP — это веб-сервис, помогающий пользовател
 
 ## Запуск
 
-Для запуска сайта у вас уже должен быть установлен Python 3.
+Для запуска сайта должен быть установлен Python3.
 
 Скачайте код из этого репозитория:
 
 ```
-git clone git@github.com:devmanorg/myip-multi-framework.git
+git clone git@github.com:jmuriki/myip-multi-framework.git
 ```
 
 Создайте новое виртуальное окружение и установите зависимости:
@@ -50,9 +50,9 @@ cd django_project
 
 Доступны следущие переменные:
 
-- `DJ_DEBUG` — переключает дебаг-режим для Django, значения `TRUE` и `FALSE`.
+- `DJ_DEBUG` — переключает дебаг-режим для Django, значения `True` и `False`.
 - `DJ_SECRET_KEY` — секретный ключ проекта для Django, [документация Django](https://docs.djangoproject.com/en/3.1/ref/settings/#std:setting-SECRET_KEY).
-- `ALLOWED_HOSTS` — список хостов через запятую, см [документацию Django](https://docs.djangoproject.com/en/3.1/ref/settings/#allowed-hosts).
+- `DJ_ALLOWED_HOSTS` — список хостов через запятую, см [документацию Django](https://docs.djangoproject.com/en/3.1/ref/settings/#allowed-hosts).
 
 ## Цели проекта
 
